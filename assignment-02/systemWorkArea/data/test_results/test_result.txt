@@ -1,0 +1,13 @@
+  Expected_visiting_points Result Count
+2                    (0,0)   PASS     1
+3               (-3, -149)   PASS     1
+4                (-4,-150)   PASS     1
+5                 (4, 150)   PASS     2
+
+  Not_expected_visiting_points Result
+0            (160.00, -150.00)   FAIL
+1               (170.0, 150.0)   FAIL
+2              (150.0, -155.0)   FAIL
+3                (-6.0, 160.0)   FAIL
+4             (-4.23, -150.56)   FAIL
+
