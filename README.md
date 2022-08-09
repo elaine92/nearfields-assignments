@@ -12,7 +12,7 @@ Please note the Test Specification contains only 10 critical test scenarios. The
 ## Assignment - 02
 Assignment 2: Measuring the robot's work area coverage
 
-## Project Structure
+### Project Structure
 The project consists of 3 folders, single runner class, and the requirements.txt file
 
 <img width="262" alt="image" src="https://user-images.githubusercontent.com/107974358/182582959-6a9edd28-b076-4eb9-a484-572f5ba093ac.png">
@@ -29,7 +29,7 @@ The project consists of 3 folders, single runner class, and the requirements.txt
 
 **5. requirements.txt:** Contains all the packages and their corresponding versions to install before executing the test
 
-## Set up Project & Test Execution
+### Set up Project & Test Execution
 <ul>
   <li>Step 1: Clone the project</li>
   <li>Step 2: Navigate to the project through terminal & activate the virtual env (MacOS --> source venv/bin/activate)</li>
@@ -37,7 +37,7 @@ The project consists of 3 folders, single runner class, and the requirements.txt
   <li>Step 4: Execute the test (Command --> python3 main.py)</li>
 </ul>
 
-## Assumptions
+### Assumptions
 <ul>
   <li>Eventhough robot has covered expected points from the input file, if these points are out of the rectangle area , those points are considered as invalid points. Based on the assignment robot is suppose to cover the points only within the rectangle area</li>
 </ul>
